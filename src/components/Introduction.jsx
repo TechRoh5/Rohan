@@ -86,6 +86,7 @@ const Introduction = () => {
         <div
           id="cts"
           className="w-full mt-7
+
                      flex flex-col sm:flex-row
                      gap-4 justify-center md:justify-start"
         >
@@ -105,7 +106,8 @@ const Introduction = () => {
             <button
               id="contact-btn"
               className="w-full sm:w-auto
-                         px-8 py-3 rounded-2xl
+                          max-[700px] : text-sm
+                         px-4 py-3 rounded-2xl
                          border border-[#997FE1]
                          text-white
                          flex justify-center items-center gap-2
