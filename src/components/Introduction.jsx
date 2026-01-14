@@ -79,7 +79,7 @@ const Introduction = () => {
         </p>
 
         {/* ================= BUTTONS ================= */}
-        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <button
             id="download"
             className="px-8 py-3 rounded-2xl bg-[#997FE1]
@@ -90,21 +90,6 @@ const Introduction = () => {
             <ArrowDownToLine size={18} />
             Download Resume
           </button>
-
-          <a href="#contact">
-            <button
-              id="contact-btn"
-              className="px-8 py-3 rounded-2xl
-                         border border-[#997FE1]
-                         text-white
-                         flex items-center justify-center gap-2
-                         text-sm sm:text-base
-                         hover:bg-[#997FE1] transition"
-            >
-              <Mail size={18} />
-              Contact Me
-            </button>
-          </a>
         </div>
 
         {/* ================= SOCIALS ================= */}
