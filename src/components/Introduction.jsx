@@ -106,7 +106,8 @@ const Introduction = () => {
             <button
               id="contact-btn"
               className="w-full sm:w-auto
-                          max-[700px] : text-sm
+              text-xl
+                        max-[700px] : text-sm
                          px-4 py-3 rounded-2xl
                          border border-[#997FE1]
                          text-white
