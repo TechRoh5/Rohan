@@ -1,27 +1,18 @@
 @import "tailwindcss";
-
-/* Smooth scroll */
-* {
+*{
   scroll-behavior: smooth;
 }
-
-/* Hide scrollbar */
-*::-webkit-scrollbar {
-  display: none;
+*::-webkit-scrollbar{
+display: none;
 }
-
-/* Text selection */
 *::selection {
-  background: #2b2b2b;
-  color: lavender;
+  background: #2b2b2b; /* Change the background color to your desired color */
+  color:lavender;      /* Change the text color on selection */
 }
 
-/* Cursor */
-a {
+a{
   cursor: pointer;
 }
-
-/* Logo gradient */
 #logo {
   background: linear-gradient(#65538b, #91869e, #8d1cfe94);
   font-weight: 700;
@@ -29,7 +20,70 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-/* Contact button border (optional) */
-#contact-btn {
-  border: 1px solid #c381e4;
+a:hover{
+  background-color: #1D283A;
+  color: #fff;
+  transition-duration: 0.2s;
+}
+
+#contact-btn{
+  border: 1px solid #C381E4;
+}
+
+
+
+@media (max-width:840px) {
+  #bod{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #penatgon{
+    height: 150px;
+    margin-top: 20px;
+  }
+  #ctf{
+    width: 100%;
+    padding:20px 0px
+  }
+   #ctf h1{
+    font-size: 40px;
+    text-align: center;
+
+  }
+   #ctf h2{
+    font-size: 30px;
+    text-align: center;
+   }
+    #ctf p{
+    font-size: 18px;
+    text-align: center;
+   }
+#contact-btn{
+padding:7px 9px;
+border-radius:10px;
+font-size: 11px;
+}
+#download{
+  padding:6px 9px;
+  border-radius:10px;
+  font-size: 11px;
+}
+#cts{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#icons{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+
+}
+#down{
+  position:absolute;
+  left:50%
+}
+
+
 }
