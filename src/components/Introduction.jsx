@@ -79,7 +79,7 @@ const Introduction = () => {
         </p>
 
         {/* ================= BUTTONS ================= */}
-        <div className="mt-8 flex  justify-center">
+        <div className="mt-8 flex justify-center">
           <button
             id="download"
             className="px-8 py-3 rounded-2xl bg-[#997FE1]
