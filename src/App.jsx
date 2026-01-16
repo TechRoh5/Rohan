@@ -9,7 +9,7 @@ import 'remixicon/fonts/remixicon.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='w-full h-fit overflow-x-hidden'>
       <Page1/>
       <Page2/>
       <Page3/>

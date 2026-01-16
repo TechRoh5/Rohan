@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Github, Linkedin, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section  className="w-full min-h-screen bg-[#020817] px-4 py-16">
+    <section  className="w-full min-h-screen bg-[#020817] px-4 py-16 max-[700px]: px-14">
       <div id='contact' className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
         
         {/* LEFT – FORM */}

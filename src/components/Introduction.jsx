@@ -33,7 +33,7 @@ function simple(el){
 
 
   return (
-    <div id='bod' className=" h-full px-15  items-center flex justify-between bg-[#11142C]">
+    <div id='bod' className="h-full px-15  items-center flex justify-between bg-[#11142C]">
       <div id='ctf' onMouseMove={(e)=>{move(e)}} onMouseLeave={(el)=>{
         simple(el)
       }} className="pb-18 mt-10 pt-20 w-[50%] h-full ">

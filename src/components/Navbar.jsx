@@ -10,9 +10,9 @@ const Navbar = () => {
   top-0
   left-0
   w-full
-  px-15
+  px-10
   h-20
-  py-3
+  py-1
   z-50
   backdrop-blur-2xl
   flex

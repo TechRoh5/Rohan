@@ -2,7 +2,7 @@ import React from "react";
 import { GraduationCap, MapPin , Medal,CodeXml} from "lucide-react";
 const Page2 = () => {
   return (
-    <div id='about' className="overflow-x-hidden w-full py-15 px-15  bg-[#0A1122]">
+    <div id='about' className="overflow-x-hidden w-full py-15 px-15  bg-[#0A1122] px-4 py-16 max-[700px]: px-14">
       <div className="w-full pb-20 flex flex-col items-center justify-center">
         <h1 className="text-6xl whitespace-nowrap inline-block border-b-3 rounded-sm border-[#8776E3] pb-1  font-medium text-[#8776E3]">
           About me
