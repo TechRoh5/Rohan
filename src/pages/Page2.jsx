@@ -2,14 +2,14 @@ import React from "react";
 import { GraduationCap, MapPin , Medal,CodeXml} from "lucide-react";
 const Page2 = () => {
   return (
-    <div id='about' className="overflow-x-hidden w-full py-15 px-15  bg-[#0A1122] px-4 py-16 max-[700px]: px-14">
-      <div className="w-full pb-20 flex flex-col items-center justify-center">
+    <div id='about' className="overflow-x-hidden w-full   bg-[#0A1122] px-15 py-15">
+      <div className="w-full  pb-20 flex flex-col items-center justify-center">
         <h1 className="text-6xl whitespace-nowrap inline-block border-b-3 rounded-sm border-[#8776E3] pb-1  font-medium text-[#8776E3]">
           About me
         </h1>
       </div>
       <div className="flex justify-between flex-col min-[940px]:flex-row  items-center min-[900px]:items-start">
-        <div className=" w-[350px] min-[940px]:w-3/7 px-5 transition-[0.2s] px-1 py-4 h-fit rounded-3xl bg-[#1F2B3D]">
+        <div className="w-[500px] max-[700px]:w-[335px] px-5 transition-[0.2s]  py-4 h-fit rounded-3xl bg-[#1F2B3D]">
           <h2 className="text-2xl text-[#6565E7] inline-block border-b-1 border-[#6565E7] pb-1">
             Mr. Rohan – The Journey
           </h2>
@@ -33,7 +33,7 @@ const Page2 = () => {
           </h3>
         </div>
 
-        <div id='edu' className="flex gap-5 items-center  flex-col w-[500px] h-fit ">
+        <div id='edu' className="flex gap-5  items-center px-1  flex-col w-[500px] h-fit  max-[700px]:px-3">
           <div className=" h-fit w-5/7 min-[940px]:w-7/7 mt-4 p-4 px-5 py-4 w-3/7 rounded-2xl bg-[#1F2B3D]">
             <h1 className="text-3xl text-[#fff] flex gap-3 font-medium">
               {" "}
@@ -50,7 +50,7 @@ const Page2 = () => {
               Pradesh
             </h3>
           </div>
-          <div className="w-5/7  min-[940px]:w-7/7 mt-2 p-4  h-fit  px-5 py-4 w-3/7 rounded-2xl bg-[#1F2B3D]">
+          <div className="w-5/7  min-[940px]:w-7/7  p-4  h-fit  px-5 py-4 w-3/7 rounded-2xl bg-[#1F2B3D]">
             <h1 className="text-3xl text-[#fff] flex gap-3 font-medium">
               {" "}
               <Medal size={35} className="text-[#6565E7]" />

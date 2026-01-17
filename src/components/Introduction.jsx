@@ -11,7 +11,7 @@ gsap.to(next.current,{
     repeat : -1,
     duration:1,
     yoyo: true ,
-    ease:"power2.out"
+    ease:"expo.out"
 })
 }, [])
 function simple(el){
@@ -36,7 +36,7 @@ function simple(el){
     <div id='bod' className="h-full px-15  items-center flex justify-between bg-[#11142C]">
       <div id='ctf' onMouseMove={(e)=>{move(e)}} onMouseLeave={(el)=>{
         simple(el)
-      }} className="pb-18 mt-10 pt-20 w-[50%] h-full ">
+      }} className="pb-18 pt-20 w-[50%] h-full mt-17  max-[600px]:mt-7">
         <h1 id='maintext' className="text-7xl text-white font-mono font-bold">
           Hi, I'm <span className="text-[#A685E1]">Rohan</span>{" "}
         </h1>
@@ -57,17 +57,17 @@ function simple(el){
           </a>
          
         </div>
-        <div id='icons' className="flex items-center mt-7 gap-8 px-2 text-gray-300">
+        <div id='icons' className="flex items-center w-full mt-0 gap-8 px-2 text-gray-300 mt-9  max-[600px]:mt-1">
           <a href="https://www.instagram.com/rohans_k__?igsh=MWFha3pkd3RrODVkZQ==" className=" hover:bg-[#11172cb0] px-3 py-3 rounded-full "> <Instagram /></a>
-              <a href="#about"> <ChevronDown size={30} /></a> 
+              <a href="#about" ref={next}> <ChevronDown size={30} /></a> 
           <a  href="https://www.facebook.com/share/1ARV6HsuZz/" className=" hover:bg-[#11172cb0] px-3 py-3 rounded-full "> <Facebook /></a>
           </div>
       </div>
-      <div id='imag'className="w-[30%] [perspective:1000px] h-full mt-8 flex justify-end items-center mt-3 max-[700px]:w-[50%] mt-26  ">
+      <div id='imag'className="w-[30%] [perspective:1000px] h-full mt-1 flex justify-end items-center mt-3 max-[700px]:w-[50%] mt-20  ">
         <div
           ref={boxRef}
         id='penatgon'
-          className="h-[500px] w-fit bg-white rounded-b-[160px] overflow-hidden max-[700px]:w-[400px]"
+          className="h-[435px] w-fit bg-white rounded-b-[160px] overflow-hidden max-[700px]:w-[400px]"
         >
           <img src={profileImg} className="w-full h-full object-cover" alt="" />
         </div>

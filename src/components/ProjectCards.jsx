@@ -1,11 +1,11 @@
 import React from 'react'
 
 const ProjectCards = (props) => {
-    console.log(props);
+    
     
   return (
-    <div className='h-fit  rounded-2xl px-5 py-5 flex-col flex items-center bg-[#1D293B] '>
-        <div className='h-fit rounded-2xl overflow-hidden w-full'>
+    <div className='h-fit rounded-2xl px-5 py-5 flex-col flex items-center bg-[#1D293B] w-[500px] max-[700px]:w-[330px]'>
+        <div className='h-fit rounded-2xl overflow-hidden w-[90%]'>
             <img src={props.ImgSrc} className='h-full w-full object-cover'  alt="" />
         </div>
         <div><h1 className=' mt-4 text-2xl text-[#A385E0]'>{props.ProjectName}</h1></div>

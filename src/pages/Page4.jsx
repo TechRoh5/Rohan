@@ -21,9 +21,9 @@ const Page4 = () => {
     
   ]
   return (
-    <div id='project' className='h-fit px-15 pb-10 gap-6 flex flex-col items-center pb-1 w-full bg-[#0A1122]'>
-        <div className='w-full flex-col mb-2 flex items-center text-[#7E72E4] font-medium underline  pt-15 pb-5 bg-[]'>
-          <h1 className='text-5xl'>My Projects</h1>
+    <div id='project' className='h-fit px-15 pb-10 gap-6 flex flex-col items-center w-full  bg-[#0A1122] max-[700px]:px-6'>
+        <div className='w-[80%] flex-col mb-2 flex items-center text-[#7E72E4] font-medium underline  pt-15 pb-5 '>
+          <h1 className='text-5xl whitespace-nowrap'>My Projects</h1>
         </div>
         <div className='w-fit max-[810px]:w-full mt-3 flex flex-col items-center h-fit '>
              <p className=' text-[#94A3B8] whitespace-nowrap text-[xl] max-[810px]:text-[10px]   min-[810px]:text-xl'>A showcase of my recent work and personal projects. Each project</p>
